@@ -1,7 +1,45 @@
 /**********************************
  * YOUR CODE GOES HERE THIS TIME! *
  **********************************/
+let a = 10;            
+let b = 5;               
+let c = 0;
+let name = "Curt";       
+let lastName = "Minyard";    
+let trafficLight = "red";
 
+
+function addition() {
+  c = a + b;
+}
+
+function subtraction() {
+  c = a - b;
+}
+
+function multiplication() {
+  c = a * b;
+}
+
+function division() {
+  c = a / b;
+}
+
+function incrementA() {
+  a += 1;
+}
+
+function decrementB() {
+  b -= 1;
+}
+
+function fullName() {
+  name = name + " " + lastName;
+}
+
+function lightChange() {
+  trafficLight = "green";
+}
 
 
 
